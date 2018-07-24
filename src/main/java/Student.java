@@ -6,9 +6,7 @@ import lombok.*;
 
 
 @AllArgsConstructor
-@ToString
-@EqualsAndHashCode
 public class Student {
-    private @Setter @Getter String name;
-    private @Setter @Getter int age;
+    private @Getter @Setter String name;
+    private @Getter @Setter int age;
 }
